@@ -1,0 +1,8 @@
+C:\Users\a2653738\source\repos\keyLoggerTest\keyLoggerCSharp\testKeyLog\bin\Debug\testKeyLog.exe.config
+C:\Users\a2653738\source\repos\keyLoggerTest\keyLoggerCSharp\testKeyLog\bin\Debug\testKeyLog.exe
+C:\Users\a2653738\source\repos\keyLoggerTest\keyLoggerCSharp\testKeyLog\bin\Debug\testKeyLog.pdb
+C:\Users\a2653738\source\repos\keyLoggerTest\keyLoggerCSharp\testKeyLog\obj\Debug\testKeyLog.csproj.AssemblyReference.cache
+C:\Users\a2653738\source\repos\keyLoggerTest\keyLoggerCSharp\testKeyLog\obj\Debug\testKeyLog.csproj.SuggestedBindingRedirects.cache
+C:\Users\a2653738\source\repos\keyLoggerTest\keyLoggerCSharp\testKeyLog\obj\Debug\testKeyLog.csproj.CoreCompileInputs.cache
+C:\Users\a2653738\source\repos\keyLoggerTest\keyLoggerCSharp\testKeyLog\obj\Debug\testKeyLog.exe
+C:\Users\a2653738\source\repos\keyLoggerTest\keyLoggerCSharp\testKeyLog\obj\Debug\testKeyLog.pdb
